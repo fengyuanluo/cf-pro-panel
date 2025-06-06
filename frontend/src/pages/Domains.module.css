@@ -1,0 +1,127 @@
+/* 域名管理页面样式 */
+
+.domainsTable {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.domainsTable .ant-table-thead > tr > th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  padding: 12px 8px;
+}
+
+.domainsTable .ant-table-tbody > tr > td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.domainsTable .ant-table-tbody > tr:hover > td {
+  background-color: #f8faff !important;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.actionButtons .ant-btn {
+  width: 70px;
+  height: 28px;
+  font-size: 11px;
+  padding: 0 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.actionButtons .ant-btn-link {
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.actionButtons .ant-btn-link:hover {
+  background-color: #f0f8ff;
+  border-color: #1890ff;
+}
+
+.actionButtons .ant-btn-link.ant-btn-dangerous:hover {
+  background-color: #fff2f0;
+  border-color: #ff4d4f;
+}
+
+.verificationStatus {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+.verificationStatus .ant-tag {
+  margin: 0;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.expirationTime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.expirationTime .time-text {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.expirationTime .time-icon {
+  font-size: 12px;
+}
+
+.domainName {
+  color: #1890ff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.targetIp {
+  background-color: #f5f5f5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  color: #333;
+}
+
+.subdomain {
+  background-color: #e6f7ff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  color: #0050b3;
+}
+
+.statusTag {
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.createTime {
+  font-size: 11px;
+  color: #666;
+  line-height: 1.2;
+}

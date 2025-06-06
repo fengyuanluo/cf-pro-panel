@@ -1,0 +1,26 @@
+{
+  "name": "cf-pro-panel-backend",
+  "version": "1.0.0",
+  "description": "CF Pro Panel Backend",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "init-db": "node src/database/init.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "better-sqlite3": "^9.2.2",
+    "axios": "^1.6.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

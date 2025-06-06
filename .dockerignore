@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+*/node_modules/
+
+# 构建产物
+frontend/dist/
+backend/dist/
+
+# 日志文件
+*.log
+logs/
+
+# 环境变量文件
+.env
+.env.local
+.env.production
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# Git 文件
+.git/
+.gitignore
+
+# 测试文件
+test/
+tests/
+*.test.js
+*.spec.js
+
+# 文档文件
+README.md
+*.md
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 临时文件
+tmp/
+temp/
+
+# 缓存文件
+.cache/
+.npm/
+.yarn/
+
+# 开发工具配置
+.eslintrc*
+.prettierrc*
+jest.config.*
+webpack.config.*

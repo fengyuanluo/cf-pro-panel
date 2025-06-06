@@ -1,0 +1,41 @@
+:8080 {
+    # 健康检查端点
+    handle /health {
+        reverse_proxy localhost:3001
+    }
+
+    # API 路由代理到后端
+    handle /api/* {
+        reverse_proxy localhost:3001
+    }
+
+    # 静态文件服务
+    handle /* {
+        root * /app/frontend/dist
+        try_files {path} /index.html
+        file_server
+    }
+
+    # 启用压缩
+    encode gzip
+
+    # 安全头
+    header {
+        # 防止点击劫持
+        X-Frame-Options DENY
+        # 防止 MIME 类型嗅探
+        X-Content-Type-Options nosniff
+        # XSS 保护
+        X-XSS-Protection "1; mode=block"
+        # 引用策略
+        Referrer-Policy strict-origin-when-cross-origin
+        # 内容安全策略
+        Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'"
+    }
+
+    # 日志
+    log {
+        output stdout
+        format console
+    }
+}
