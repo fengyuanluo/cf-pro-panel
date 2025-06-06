@@ -12,11 +12,11 @@
 
 ## 项目截图
 
-![image](https://i.111666.best/image/gURYdgIMFqeUmtbfTaYqC1.png)
+![18972b602866ba45007fa80e420ce221.png](https://i.miji.bid/2025/06/06/18972b602866ba45007fa80e420ce221.png)
 
-![image](https://i.111666.best/image/UseH0GdDpcaRa1EPfYHMtx.png)
+![519cd64fe1669a80ed5345126120f2a0.png](https://i.miji.bid/2025/06/06/519cd64fe1669a80ed5345126120f2a0.png)
 
-![image](https://i.111666.best/image/NAmEiRPORc2K4ktkPrYiHp.png)
+![9ef67a3f611596ba182c2391e271e81c.png](https://i.miji.bid/2025/06/06/9ef67a3f611596ba182c2391e271e81c.png)
 
 ## 功能特性
 
