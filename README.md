@@ -8,6 +8,8 @@
 
 总而言之，这是一个基于 React + Node.js + SQLite 的 Cloudflare 合租面板，支持自定义主机名管理和卡密系统，由于实在缺乏对接易支付相关知识，我做成了卡密的形式，通过卡密进行额度的创建和续期（所以谁来给我嫖个卡密啊）
 
+如果你觉得这个项目对你有帮助，请帮我点一个Star，谢谢啦~
+
 ## 项目截图
 
 ![image-20250606211316830](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250606211316830.png)
