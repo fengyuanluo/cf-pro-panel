@@ -12,11 +12,11 @@
 
 ## 项目截图
 
-![image-20250606211316830](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250606211316830.png)
+![image](https://i.111666.best/image/gURYdgIMFqeUmtbfTaYqC1.png)
 
-![image-20250606211531322](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250606211531322.png)
+![image](https://i.111666.best/image/UseH0GdDpcaRa1EPfYHMtx.png)
 
-![image-20250606211551732](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250606211551732.png)
+![image](https://i.111666.best/image/NAmEiRPORc2K4ktkPrYiHp.png)
 
 ## 功能特性
 
