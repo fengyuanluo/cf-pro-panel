@@ -1,6 +1,20 @@
 # CF Pro Panel
 
-基于 React + Node.js + SQLite 的 Cloudflare 合租面板，支持自定义主机名管理和卡密系统。
+## 前言
+
+感谢赛博活佛Cloudflare，在一大堆服务之后又放宽了SaaS的限制，让合租Pro成为可能，详情参考酒神的[帖子](https://www.nodeseek.com/post-356972-1)。
+
+同时感谢Augment为本项目的大力支持，在它的帮助下，我作为一个代码小白（知识储备仅限大学C语言课程和部分自学的基础），也能完成这样一个项目。
+
+总而言之，这是一个基于 React + Node.js + SQLite 的 Cloudflare 合租面板，支持自定义主机名管理和卡密系统，由于实在缺乏对接易支付相关知识，我做成了卡密的形式，通过卡密进行额度的创建和续期（所以谁来给我嫖个卡密啊）
+
+## 项目截图
+
+![image-20250606211316830](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250606211316830.png)
+
+![image-20250606211531322](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250606211531322.png)
+
+![image-20250606211551732](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250606211551732.png)
 
 ## 功能特性
 
@@ -133,4 +147,26 @@ Docker 环境下，数据库文件存储在 `/app/data/cf_panel.db`，通过 Doc
 
 ## 许可证
 
-MIT License
+本项目采用 GNU General Public License v3.0 开源协议。
+
+这意味着您可以自由地使用、修改和分发本软件，但必须遵守以下条件：
+- 任何基于本项目的衍生作品也必须采用 GPL v3 协议开源
+- 必须保留原始的版权声明和许可证声明
+- 如果您分发修改后的版本，必须提供源代码
+
+详细信息请参阅 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)。
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request 来帮助改进项目，作者作为一个大鸽子八百年前的邮箱项目都还没修，后续更新实在随缘...
+
+## 支持
+
+如果您在使用过程中遇到问题，可以通过以下方式获取帮助：
+- 提交 GitHub Issue
+- 查看项目文档
+- 参与社区讨论
+
+## 免责声明
+
+本项目仅供学习和研究使用。使用者应当遵守相关法律法规，合理使用 Cloudflare 服务。项目作者不对使用本软件造成的任何损失承担责任。
