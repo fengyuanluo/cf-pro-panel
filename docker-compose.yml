@@ -1,8 +1,6 @@
 services:
   cf-pro-panel:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: luofengyuan/cf-pro-panel:latest
     container_name: cf-pro-panel
     restart: unless-stopped
     ports:

@@ -79,6 +79,7 @@ export const authAPI = {
   login: (data) => api.post('/auth/login', data),
   register: (data) => api.post('/auth/register', data),
   getProfile: () => api.get('/auth/profile'),
+  changePassword: (data) => api.post('/auth/change-password', data),
 };
 
 // 用户相关API

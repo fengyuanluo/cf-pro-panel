@@ -98,7 +98,7 @@ const AppLayout = ({ children }) => {
       clearAuth();
       navigate('/login');
     } else if (key === 'profile') {
-      // 处理个人信息
+      navigate('/profile');
     }
   };
 

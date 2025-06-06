@@ -10,6 +10,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Domains from './pages/Domains';
 import Redeem from './pages/Redeem';
+import Profile from './pages/Profile';
 import NotFound from './pages/NotFound';
 
 // 管理员页面导入
@@ -41,6 +42,7 @@ function App() {
                 {/* 用户路由 */}
                 <Route path="domains" element={<Domains />} />
                 <Route path="redeem" element={<Redeem />} />
+                <Route path="profile" element={<Profile />} />
 
                 {/* 管理员路由 */}
                 <Route

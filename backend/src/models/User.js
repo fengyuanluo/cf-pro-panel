@@ -65,6 +65,17 @@ class User {
   static async verifyPassword(plainPassword, hashedPassword) {
     return bcrypt.compare(plainPassword, hashedPassword);
   }
+
+  static async updatePassword(id, newPassword) {
+    try {
+      const hashedPassword = await bcrypt.hash(newPassword, 10);
+      const stmt = db.prepare(`UPDATE users SET password = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?`);
+      const result = stmt.run(hashedPassword, id);
+      return result.changes > 0;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = User;
